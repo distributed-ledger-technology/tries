@@ -4,7 +4,7 @@ Tries support faster and more precise query executions related to those sequence
 
 ## Usage Examples
 
-Please check the [unit tests]() to explore usage examples
+Please check the [unit tests](https://github.com/distributed-ledger-technology/tries/blob/main/src/trie.spec.ts) to explore usage examples
 
 
 
