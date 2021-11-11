@@ -6,11 +6,13 @@ const trie = new Trie()
 const exampleSequence1 = "be"
 const exampleSequence2 = "bet"
 const exampleSequence3 = "bed"
-const exampleSequence4 = "justice"
+const exampleSequence4 = "bed and breakfast"
+const exampleSequence5 = "justice"
 
 trie.insert(exampleSequence1)
 trie.insert(exampleSequence3)
 trie.insert(exampleSequence2)
+trie.insert(exampleSequence5)
 trie.insert(exampleSequence4)
 
 
@@ -18,6 +20,7 @@ Deno.test("should check if sequence is available", async () => {
 
     assertEquals(trie.hasSequence(exampleSequence3), true)
     assertEquals(trie.hasSequence(exampleSequence4), true)
+    assertEquals(trie.hasSequence("breakfast"), false) // because it is not added as a discrete sequence
     assertEquals(trie.hasSequence("missing"), false)
 
 })
