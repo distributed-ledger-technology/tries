@@ -1,0 +1,1 @@
+export * from "./src/letters-words-prediction-trie/letters-words-prediction-trie.ts"

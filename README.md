@@ -30,10 +30,37 @@ console.log(trie.hasSequence("missing")) // false
 
 ```
 
+## Letters and Words Prediction Tries
 
-## Patricia Tries
+```ts
+
+import { LettersWordsPredictionTrie } from "https://deno.land/tries/mod-letters-and-word-prediction.ts"
+
+const lettersWordsPredictionTrie = new LettersWordsPredictionTrie()
+
+lettersWordsPredictionTrie.learn(['ether', 'eth', 'ethereum', 'super'])
+
+const brain = lettersWordsPredictionTrie.getBrain()
+
+console.log(JSON.stringify(brain, undefined, 2))
+
+
+```
+
+## PATRICIA Tries
+**P** Practical  
+**A** Algorithm  
+**T** To   
+**R** Retrieve   
+**I** Information  
+**C** Coded  
+**I** In   
+**A** Alphanumeric  
+
+In the Ethereum Blockchain pretty much everything (state trie, transaction trie, receipt trie, ...) ist stored in PATRICIA Tries. For details I can recommend [this video](https://www.youtube.com/watch?v=OxofT39TJgg).
+
 ### Usage Examples
-[Patricia Tries](https://de.wikipedia.org/wiki/Patricia-Trie) ...
+... Under Construction ...
 
 ## Unit Tests
 For further usage examples etc. please check the [unit tests](https://github.com/distributed-ledger-technology/tries/blob/main/src/trie.spec.ts).
