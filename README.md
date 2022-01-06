@@ -57,7 +57,7 @@ console.log(JSON.stringify(brain, undefined, 2))
 **I** In   
 **A** Alphanumeric  
 
-In the Ethereum Blockchain pretty much everything (state trie, transaction trie, receipt trie, ...) ist stored in PATRICIA Tries. For details I can recommend [this video](https://www.youtube.com/watch?v=OxofT39TJgg).
+PATRICIA Tries are Radix Trees with the [radix 2](https://cs.stackexchange.com/questions/63048/what-is-the-difference-between-radix-trees-and-patricia-tries). They became especially famous because in the Ethereum Blockchain pretty much everything (state trie, transaction trie, receipt trie, ...) is stored in PATRICIA Tries. For details I can recommend [this video](https://www.youtube.com/watch?v=OxofT39TJgg).
 
 ### Usage Examples
 ... Under Construction ...
