@@ -63,7 +63,7 @@ A rather famous variation of a Radix Tree is the PATRICIA Trie:
 **A** Alphanumeric  
 
 PATRICIA Tries are Radix Trees with the [radix 2](https://cs.stackexchange.com/questions/63048/what-is-the-difference-between-radix-trees-and-patricia-tries).  
-[Merkle PATRICIA Tries aka Merkle PATRICIA trees](https://www.skypack.dev/view/merkle-patricia-tree) became especially famous as in the Ethereum Blockchain pretty much everything (state trie, transaction trie, receipt trie, ...) is stored in those kinds of data structures. For details I can recommend [this video](https://www.youtube.com/watch?v=OxofT39TJgg). Keep in mind that (currently) some people use different words for the same thing and some people use the same word for different things in these contexts.
+[Merkle PATRICIA Tries aka Merkle PATRICIA Trees](https://www.skypack.dev/view/merkle-patricia-tree) became especially famous as in the Ethereum Blockchain pretty much everything (state trie, transaction trie, receipt trie, ...) is stored in those kinds of data structures. For details I can recommend [this video](https://www.youtube.com/watch?v=OxofT39TJgg). Keep in mind that (currently) some people use different words for the same thing and some people use the same word for different things in these contexts.
 
 ## Merkle PATRICIA Trie / Tree
 
