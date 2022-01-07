@@ -1,4 +1,4 @@
-import { Trie } from "https://deno.land/tries/mod.ts"
+import { Trie } from "https://deno.land/x/tries/mod.ts"
 // import { Trie } from "./src/trie.ts"
 
 const trie = new Trie()
