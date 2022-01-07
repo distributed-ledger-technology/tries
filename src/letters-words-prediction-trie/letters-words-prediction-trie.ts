@@ -12,11 +12,7 @@ export class LettersWordsPredictionTrie {
 
     }
 
-    public getBrain(): any {
-        return this.brain
-    }
-
-    private addInput(input: string, brain: any): any {
+    public addInput(input: string, brain: any): any {
 
         if (input.length == 0) return {}
 
@@ -53,6 +49,10 @@ export class LettersWordsPredictionTrie {
 
     private isCharacterInBrain(character: string, brain: any): boolean {
         return (brain[character] !== undefined)
+    }
+
+    public getBrain(): any {
+        return this.brain
     }
 
 }
